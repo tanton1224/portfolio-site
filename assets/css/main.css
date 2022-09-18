@@ -20,6 +20,7 @@ footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -4053,6 +4054,16 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		}
+
+		.skills-container {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.skills-container img {
+			/* width: 150px; */
+			height: 150px;
 		}
 
 /* Footer */
