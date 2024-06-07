@@ -323,6 +323,10 @@ input, select, textarea {
 		border-bottom-color: #eeeeee;
 	}
 
+	.language-icon {
+		font-size: xxx-large;
+	}
+
 /* Row */
 
 	.row {
@@ -4054,16 +4058,6 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		}
-
-		.skills-container {
-			display: flex;
-			justify-content: space-between;
-		}
-
-		.skills-container img {
-			/* width: 150px; */
-			height: 150px;
 		}
 
 /* Footer */
